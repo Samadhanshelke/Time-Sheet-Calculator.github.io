@@ -1,0 +1,30 @@
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #f2ecec;
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th{
+    background-color: blueviolet;
+    color:white
+  }
+  input,select{
+    width:80px;
+    padding:4px 6px;
+  }
+
+  /* .tr td:first-child{
+    background-color: red;
+  } */
+
+  

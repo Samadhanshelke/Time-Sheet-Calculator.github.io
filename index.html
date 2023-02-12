@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Time__sheet-calculator</title>
+    <!-- <link rel="shortcut icon" href="." type="image/x-icon"> -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Time Sheet Calculator</h1>
+
+    <div class="container">
+      <table>
+        <tr>
+          <th>Day</th>
+          <th>Starting Time</th>
+          <th>Ending Time</th>
+          <th>Break Deduction</th>
+          <th>calculate</th>
+        </tr>
+        <tr class="tr">
+          <td>Monday</td>
+          <td>
+            <input class="start_hour" type="text" value="8" /> :
+            <input class="start_min" type="text" value="00" />
+            <select class="am_pm1">
+              <option value="AM">AM</option>
+              <option value="PM">PM</option>
+            </select>
+          </td>
+          <td>
+            <input class="end_hour" type="text" value="5" /> :
+            <input class="end_min" type="text" value="00" />
+            <select class="am_pm2">
+              <option value="AM">AM</option>
+              <option value="PM" selected>PM</option>
+            </select>
+          </td>
+          <td>
+            <input class="break_hour" type="text" value="2" /> :
+            <input class="break_min" type="text" value="00" />
+          </td>
+          <td class="total">00</td>
+        </tr>
+        <tr class="tr">
+          <td>Tuesday</td>
+          <td>
+            <input class="start_hour" type="text" value="8" /> :
+            <input class="start_min" type="text" value="00" />
+            <select class="am_pm1">
+              <option value="AM" selected>AM</option>
+              <option value="PM">PM</option>
+            </select>
+          </td>
+          <td>
+            <input class="end_hour" type="text" value="6" /> :
+            <input class="end_min" type="text" value="00" />
+            <select class="am_pm2">
+              <option value="AM" >AM</option>
+              <option value="PM" selected>PM</option>
+            </select>
+          </td>
+          <td>
+            <input class="break_hour" type="text" value="4" /> :
+            <input class="break_min" type="text" value="00" />
+          </td>
+          <td class="total">00</td>
+        </tr>
+        <tr class="tr">
+          <td>Wednesday</td>
+          <td>
+            <input class="start_hour" type="text" value="8" /> :
+            <input class="start_min" type="text" value="00" />
+            <select class="am_pm1">
+              <option value="AM" selected>AM</option>
+              <option value="PM">PM</option>
+            </select>
+          </td>
+          <td>
+            <input class="end_hour" type="text" value="7" /> :
+            <input class="end_min" type="text" value="00" />
+            <select class="am_pm2">
+              <option value="AM" >AM</option>
+              <option value="PM" selected>PM</option>
+            </select>
+          </td>
+          <td>
+            <input class="break_hour" type="text" value="5" /> :
+            <input class="break_min" type="text" value="00" />
+          </td>
+          <td class="total">00</td>
+        </tr>
+        <tr class="tr">
+          <td>Thursday</td>
+          <td>
+            <input class="start_hour" type="text" value="8" /> :
+            <input class="start_min" type="text" value="00" />
+            <select class="am_pm1">
+              <option value="AM" selected>AM</option>
+              <option value="PM">PM</option>
+            </select>
+          </td>
+          <td>
+            <input class="end_hour" type="text" value="8" /> :
+            <input class="end_min" type="text" value="00" />
+            <select class="am_pm2">
+              <option value="AM" >AM</option>
+              <option value="PM" selected>PM</option>
+            </select>
+          </td>
+          <td>
+            <input class="break_hour" type="text" value="1" /> :
+            <input class="break_min" type="text" value="00" />
+          </td>
+          <td class="total">00</td>
+        </tr>
+        <tr class="tr">
+          <td>Friday</td>
+          <td>
+            <input class="start_hour" type="text" value="8" /> :
+            <input class="start_min" type="text" value="00" />
+            <select class="am_pm1">
+              <option value="AM" selected>AM</option>
+              <option value="PM">PM</option>
+            </select>
+          </td>
+          <td>
+            <input class="end_hour" type="text" value="9" /> :
+            <input class="end_min" type="text" value="00" />
+            <select class="am_pm2">
+              <option value="AM" >AM</option>
+              <option value="PM" selected>PM</option>
+            </select>
+          </td>
+          <td>
+            <input class="break_hour" type="text" value="2" /> :
+            <input class="break_min" type="text" value="00" />
+          </td>
+          <td class="total">00</td>
+        </tr>
+        <tr class="tr">
+          <td>Saturday</td>
+          <td>
+            <input class="start_hour" type="text" value="8" /> :
+            <input class="start_min" type="text" value="00" />
+            <select class="am_pm1">
+              <option value="AM" selected>AM</option>
+              <option value="PM">PM</option>
+            </select>
+          </td>
+          <td>
+            <input class="end_hour" type="text" value="10" /> :
+            <input class="end_min" type="text" value="00" />
+            <select class="am_pm2">
+              <option value="AM">AM</option>
+              <option value="PM" selected>PM</option>
+            </select>
+          </td>
+          <td>
+            <input class="break_hour" type="text" value="3" /> :
+            <input class="break_min" type="text" value="00" />
+          </td>
+          <td class="total">00</td>
+        </tr>
+        <tr class="tr">
+          <td>Sunday</td>
+          <td>
+            <input class="start_hour" type="text" value="8" /> :
+            <input class="start_min" type="text" value="00" />
+            <select class="am_pm1">
+              <option value="AM" selected>AM</option>
+              <option value="PM">PM</option>
+            </select>
+          </td>
+          <td>
+            <input class="end_hour" type="text" value="11" /> :
+            <input class="end_min" type="text" value="00" />
+            <select class="am_pm2">
+              <option value="AM">AM</option>
+              <option value="PM" selected>PM</option>
+            </select>
+          </td>
+          <td>
+            <input class="break_hour" type="text" value="4" /> :
+            <input class="break_min" type="text" value="00" />
+          </td>
+          <td class="total">00</td>
+        </tr>
+
+        <tr>
+          <td>Created by: s.r.shelke</td>
+          <td></td>
+          <td></td>
+          <td style="text-align: right;">total</td>
+          <td class="total_time">00</td>
+        </tr>
+      </table>
+      
+
+      <button id="calculate">calculate</button>
+      <!-- <h2>start hour-min</h2>
+          <span>start hour:</span><p class="output1">1</p> 
+          <span>start min:</span><p class="output2">2</p>
+
+          <h2>end hour-min</h2>
+          <span>end hour:</span><p class="output3">3</p> 
+          <span>end min:</span> <p class="output4">4</p>
+
+          <h2>break hour-min</h2>
+          <span>break hour:</span> <p class="output5">5</p>
+          <span>break min:</span>  <p class="output6">6</p> -->
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
